@@ -1,0 +1,74 @@
+
+.grid {
+	display: grid;
+	text-align: center;
+	font-size:  16px;
+}
+.centralizar{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.grid-tres-colunas-head {
+	grid-template-columns: 2fr 5fr 1fr;
+}
+.grid-tres-colunas-slider {
+	grid-template-columns: 2fr 5fr 1fr;
+}
+.grid-tres-colunas-menu {
+	grid-template-columns: 15fr 1fr 2fr;
+	text-decoration
+}
+.grid-duas-colunas {
+	grid-template-columns: 3fr 1fr;
+}
+.grid-duas-colunas-destaque {
+	grid-template-columns: 4fr 2fr;
+}
+.grid-duas-colunas-iguais {
+	grid-template-columns: 1fr 1fr;
+}
+.grid-tres-colunas-iguais {
+	grid-template-columns: repeat(3, 1fr);
+}
+.grid-oito-colunas {
+	grid-template-columns: repeat(6, 1fr) 2fr 2fr;
+}
+.item {
+	margin: 1px;
+	background: rgba(10,10,10, 0.05);
+	text-align: center;
+	height: 80px;
+}
+.item-quadrado {
+	margin: 1px;
+	background: rgba(10,10,10, 0.05);
+	text-align: center;
+	height: 200px;
+}
+.outdoor {
+	display:block;
+	height: 325px;
+	margin-bottom: 4px;
+}
+
+.pesquisa{
+	margin:10px auto;
+	width:90%;
+}
+p{
+	font-size:  0.775em;
+}
+.logo{
+	color: blue;
+}
+
+.item-menu[
+	margin: 0 auto;
+	display: inline;
+	
+
+]
