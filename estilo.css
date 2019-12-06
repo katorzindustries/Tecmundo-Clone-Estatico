@@ -38,11 +38,11 @@ h1 {
 }
 
 .grid-duas-colunas {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 2fr;
 }
 
 .grid-quatro-colunas-custom {
-    grid-template-columns: 10fr 1fr 1fr 1fr;
+    grid-template-columns: 6fr 1fr 1fr 1fr;
     margin-right: 40px;
 }
 
@@ -55,7 +55,7 @@ h1 {
 
 .grid-quatro-colunas-iguais {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 43px;
+    margin-left: 60px;
 }
 
 .grid-tres-colunas-iguais {
@@ -73,7 +73,6 @@ h1 {
 
 .item-quadrado {
     margin: 1px;
-    background: rgba(10, 10, 10, 0.05);
     text-align: center;
 }
 
@@ -81,6 +80,7 @@ h1 {
     margin-left: 80px;
     margin-top: 20px;
     text-align: left;
+    cursor: pointer;
 }
 
 .outdoor {
@@ -104,10 +104,12 @@ p {
 .item-menu {
     margin: 0 auto;
     display: block;
+    cursor: pointer;
 }
 
 .item-menu1 {
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .imagem {
@@ -231,19 +233,23 @@ p {
     font-size: medium;
     font-weight: bold;
     margin-bottom: 1px;
+    cursor: pointer;
 }
 
 #bfTexto {
     font-size: x-small;
     margin: 1px;
+    cursor: pointer;
 }
 
 .titulonoticia {
     color: #1087ff;
     font-size: 18px;
+    margin-top: 30px;
     letter-spacing: -.02em;
     line-height: 20px;
     margin-right: 80px;
+    cursor: pointer;
 }
 
 .resumonoticia {
@@ -253,6 +259,7 @@ p {
     letter-spacing: -.01em;
     margin-right: 80px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .numeros {
@@ -275,13 +282,16 @@ p {
     font-size: 18px;
     font-weight: inherit;
     letter-spacing: .01em;
+    cursor: pointer;
 }
 
 .tituloNOutdoor {
     font-size: 30px;
     margin: 2px;
     margin-left: 80px;
+    cursor: pointer;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .resumoNoticia1 {
@@ -293,6 +303,7 @@ p {
     line-height: 24px;
     width: 90%;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 .resumoNoticiaHora {
@@ -303,12 +314,31 @@ p {
     line-height: 24px;
     margin-top: 2px;
     width: 90%;
+    cursor: pointer;
+}
+
+.resumoNoticiaHora1 {
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: -.01em;
+    margin-right: 80px;
+    line-height: 24px;
+    margin: 0;
+    width: 90%;
+    cursor: pointer;
 }
 
 .tituloMaisLidas {
     font-size: 30px;
     margin: 2px;
     margin-left: 80px;
+    font-weight: bold;
+}
+
+.tituloSide {
+    font-size: 24px;
+    margin: 2px;
+    margin-left: 11px;
     font-weight: bold;
 }
 
@@ -333,4 +363,78 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 65px;
+}
+
+.titulonoticiaf {
+    color: #e2ac55;
+    font-size: 12px;
+    letter-spacing: -.02em;
+    line-height: 20px;
+    margin-bottom: 0%;
+}
+
+.resumonoticiaf {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: -.01em;
+    line-height: 24px;
+}
+
+.pub {
+    background-color: #ffffff00;
+}
+
+.grid-duas-colunas-direita {
+    grid-template-columns: 1fr 2fr;
+}
+
+.mais {
+    margin: 0 auto;
+    color: #1087ff;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+img {
+    cursor: pointer;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    width: 100%;
+    background-color: #e4e4e4a0;
+}
+
+.grid-seis-colunas {
+    margin-left: 80px;
+    margin-right: 80px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#titulorodape {
+    font-size: 18px;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: bold;
+}
+
+#itensrodape {
+    font-family: Source Sans Pro, sans-serif;
+    color: var(--footer-link-color);
+    font-size: 16px;
+    letter-spacing: -.01em;
+    line-height: 20px;
+    text-decoration: none;
+    margin: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
