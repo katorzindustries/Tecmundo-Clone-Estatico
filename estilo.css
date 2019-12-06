@@ -224,6 +224,7 @@ p {
     position: relative;
     top: 32px;
     left: 20px;
+    color: #22222288;
 }
 
 #bfTitulo {
@@ -325,4 +326,11 @@ p {
     height: 25px;
     text-align: center;
     background-color: #deeaf6;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 65px;
 }
